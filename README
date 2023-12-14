@@ -1,0 +1,49 @@
+READ ME
+This project focuses on performing climate analysis and data exploration of a climate database using Python, SQLAlchemy, Pandas, and Matplotlib. The analyses a climate database and visualizing the data. Additionally, a Flask API is created to display the results of the queries.
+
+PART 1: The analysis perfomrs the following 
+
+a. Find Most Recent Date in Dataset:
+b. Retrieve 12 Months of Precipitation Data:
+c. Select Date and Precipitation Values:
+d. Load Results into a Pandas DataFrame:
+e. Sort DataFrame by Date:
+f. Plotting Precipitation Data:
+g. Query Total Number of Stations:
+h. Find the Most Active Stations:
+i. Query Temperature Data for Most Active Station:
+j. Retrieve TOBS Data for Most Active Station:
+
+2. PART 2: Design Your Climate App
+
+DevelopED a Flask API based on the above queries in the following routes:
+
+a. Homepage (/): Available routes
+b. /api/v1.0/precipitation: Retrieves only the last 12 months of data
+c. /api/v1.0/stations: list of stations from the dataset
+d. /api/v1.0/tobs: emperature observations of the most-active station for the previous year of data
+e. /api/v1.0/<start> and /api/v1.0/<start>/<end> : Minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
